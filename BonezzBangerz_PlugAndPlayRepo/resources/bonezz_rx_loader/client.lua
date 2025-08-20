@@ -1,1 +1,0 @@
--- client script placeholder for bonezz_rx_loader

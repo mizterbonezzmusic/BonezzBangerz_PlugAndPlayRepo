@@ -1,1 +1,0 @@
--- server script placeholder for Bonezz_UC_Safehouses

@@ -1,1 +1,0 @@
--- server script placeholder for bonezz_min
