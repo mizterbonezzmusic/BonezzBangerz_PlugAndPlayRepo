@@ -1,0 +1,1 @@
+-- client script placeholder for Bonezz_Rx_AllInOne_v3

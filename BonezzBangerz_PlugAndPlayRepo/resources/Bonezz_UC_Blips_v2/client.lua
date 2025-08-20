@@ -1,0 +1,1 @@
+-- client script placeholder for Bonezz_UC_Blips_v2
