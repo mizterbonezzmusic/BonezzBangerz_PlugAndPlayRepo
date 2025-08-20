@@ -1,2 +1,0 @@
--- Example item use handlers (adjust to your inventory framework)
--- This file is placeholder; real effects hook into your inventory/consumables.
