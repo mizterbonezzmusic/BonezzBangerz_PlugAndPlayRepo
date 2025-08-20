@@ -1,0 +1,69 @@
+$schema: "https://raw.githubusercontent.com/tabarra/txAdmin-recipe-schemas/master/fxmanifest/recipe.yaml"
+
+name: "Bonezz Bangerz – PlugAndPlay"
+version: "2.0.0"
+author: "mizterbonezzmusic"
+description: |
+  Plug-and-play setup for Bonezz Bangerz.
+  Installs resources and config files from GitHub.
+  Includes your identifiers pre-added as admins.
+
+server: "Bonezz Bangerz"
+
+tasks:
+  - action: download_github
+    src: "mizterbonezzmusic/BonezzBangerz_PlugAndPlayRepo"
+    ref: "main"
+    subpath: "resources/bonezz_min"
+    dest: "resources/bonezz_min"
+
+  - action: download_github
+    src: "mizterbonezzmusic/BonezzBangerz_PlugAndPlayRepo"
+    ref: "main"
+    subpath: "resources/bonezz_rx_loader"
+    dest: "resources/bonezz_rx_loader"
+
+  - action: download_github
+    src: "mizterbonezzmusic/BonezzBangerz_PlugAndPlayRepo"
+    ref: "main"
+    subpath: "resources/Bonezz_Rx_AllInOne_v3"
+    dest: "resources/Bonezz_Rx_AllInOne_v3"
+
+  - action: download_github
+    src: "mizterbonezzmusic/BonezzBangerz_PlugAndPlayRepo"
+    ref: "main"
+    subpath: "resources/Bonezz_UC_Blips_v2"
+    dest: "resources/Bonezz_UC_Blips_v2"
+
+  - action: download_github
+    src: "mizterbonezzmusic/BonezzBangerz_PlugAndPlayRepo"
+    ref: "main"
+    subpath: "resources/Bonezz_UC_Safehouses"
+    dest: "resources/Bonezz_UC_Safehouses"
+
+  - action: download_github
+    src: "mizterbonezzmusic/BonezzBangerz_PlugAndPlayRepo"
+    ref: "main"
+    subpath: "resources/Corrupt_Cops"
+    dest: "resources/Corrupt_Cops"
+
+  # Config files
+  - action: download_github
+    src: "mizterbonezzmusic/BonezzBangerz_PlugAndPlayRepo"
+    ref: "main"
+    subpath: "server.cfg"
+    dest: "server.cfg"
+
+  - action: download_github
+    src: "mizterbonezzmusic/BonezzBangerz_PlugAndPlayRepo"
+    ref: "main"
+    subpath: "server.auto.cfg"
+    dest: "server.auto.cfg"
+
+identifiers:
+  - license:4576f02ddb6efa62a43154edd9367dec6e5271d1
+  - xbl:2535445670033193
+  - live:985160550934950
+  - discord:679447894478028800
+  - fivem:17437764
+  - license2:4576f02ddb6efa62a43154edd9367dec6e5271d1
