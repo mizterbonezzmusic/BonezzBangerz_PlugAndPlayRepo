@@ -1,0 +1,26 @@
+# Bonezz Bangerz – Full Addon (Root Recipe, GitHub-friendly)
+$schema: "https://raw.githubusercontent.com/tabarra/txAdmin-recipe-schemas/master/fxmanifest/recipe.yaml"
+
+name: "Bonezz Bangerz – Full Addon"
+version: "1.4.0"
+author: "mizterbonezzmusic"
+description: |
+  Plug-and-play repo for Bonezz Bangerz. Contains resources + server.cfg + remote recipe under /recipes.
+  Use this root recipe to deploy from this repo's root if you import as a local file in txAdmin.
+
+server: "Bonezz Bangerz"
+
+tasks:
+  # Copy resources from repo into server's resources/
+  - action: file_copy
+    src: resources
+    dest: resources
+
+  # Copy server.cfg from repo root into server-data
+  - action: file_copy
+    src: server.cfg
+    dest: server.cfg
+
+notes:
+  - "After deploy, set your license key and MySQL string in server.cfg, then start the server."
+  - "If you prefer Remote File method, use recipes/Bonezz_Full_Remote/recipe.yaml raw URL."

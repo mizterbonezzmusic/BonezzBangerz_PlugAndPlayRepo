@@ -1,0 +1,1 @@
+-- Server side hooks for Bonezz Rx (placeholder). Integrate with qb-inventory where needed.
