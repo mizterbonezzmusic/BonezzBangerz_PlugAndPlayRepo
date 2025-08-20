@@ -1,0 +1,13 @@
+# Minimal recipe to copy server.cfg from this repo
+$schema: "https://raw.githubusercontent.com/tabarra/txAdmin-recipe-schemas/master/fxmanifest/recipe.yaml"
+name: "Bonezz Bangerz - Config Only"
+version: "1.0.0"
+author: "mizterbonezzmusic"
+description: "Copies server.cfg; install resources via other recipes or manual upload."
+server: "Bonezz Bangerz"
+tasks:
+  - action: download_github
+    src: "mizterbonezzmusic/BonezzBangerz_PlugAndPlayRepo"
+    ref: "main"
+    subpath: "server-data/server.cfg"
+    dest: "server.cfg"
